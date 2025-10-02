@@ -52,15 +52,15 @@
     `~/.config/waybar/config.jsonc`
 
 
-    ```bash
-    "custom/pomodoro": {
-        "exec": "curl http://localhost:8081/status",
-        "interval": 1,
-        "on-click": "curl http://localhost:8081/toggle",
-        "on-click-right": "curl http://localhost:8081/reset",
-        "return-type": "json",
-    }
-    ```
+```bash
+"custom/pomodoro": {
+    "exec": "curl http://localhost:8081/status",
+    "interval": 1,
+    "on-click": "curl http://localhost:8081/toggle",
+    "on-click-right": "curl http://localhost:8081/reset",
+    "return-type": "json",
+}
+```
 
 - Нажатие левой кнопкой мыши - старт/стоп таймера
 
