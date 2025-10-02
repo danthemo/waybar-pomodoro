@@ -50,6 +50,7 @@
 
 Добавьте в конфиг waybar блок с командой, которая будет запрашивать статус таймера:
     `~/.config/waybar/config.jsonc`
+    
     ```bash
     "custom/pomodoro": {
         "exec": "curl http://localhost:8081/status",
